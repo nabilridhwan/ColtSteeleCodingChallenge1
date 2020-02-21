@@ -8,14 +8,12 @@ export default class FormHandler {
     incrementStep() {
         this.currentStep++;
         this.hideNonAttending(this.currentStep)
-        console.log(this.currentStep)
     }
 
     decrementStep() {
         // Decrement the step
         this.currentStep--;
         this.hideNonAttending(this.currentStep)
-        console.log(this.currentStep)
     }
 
     // What this method does: Hides every other divs except for the current step's div
